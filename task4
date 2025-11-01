@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int n;
+    long long faktorial = 1;
+
+    cout << "ədədi daxil edin: ";
+    cin >> n;
+
+    if (n < 0) {
+        cout << "Mənfi ədədin faktorialı yoxdur." <<endl;
+    } else {
+        for (int i = 1; i <= n; ++i) {
+            faktorial *= i; // faktorial = faktorial * i
+        }
+        cout << n << "-in faktorialı: " << faktorial <<endl;
+    }
+    return 0;
+}
