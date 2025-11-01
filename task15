@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int n;
+    int a;
+    int cem = 0;
+    cout << "ədədlərin sayını daxil edin: ";
+    cin >> n;
+    for (int i = 1; i <= n; ++i) {
+        cout << i << "ədədi daxil edin: ";
+        cin >>a;
+        cem +=a;
+    }
+    cout << "Daxil edilmiş " << n << " ədədin cəmi: " << cem << endl;
+    return 0;
