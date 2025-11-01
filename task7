@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int eded;
+    int cem = 0;
+    cout << "Ədədləri daxil edin:" << endl;
+    while (true) { 
+        cout << "Ədəd: ";
+        cin >> eded;
+        if (eded == 0) {
+            break; 
+        }
+        cem += eded;
+    }
+    cout << "Daxil edilmiş ədədlərin cəmi: " << cem <<endl;
+    return 0;
+}
