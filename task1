@@ -1,0 +1,10 @@
+#include <iostream>
+
+int main() {
+    std::cout << "1-dən 10-a qədər ədədlər:" << std::endl;
+    for (int i = 1; i <= 10; ++i) {
+        std::cout << i << " ";
+    }
+    std::cout << std::endl;
+    return 0;
+}
