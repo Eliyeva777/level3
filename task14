@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main() {
+    cout << "1-dən 100-ə qədər yalnız 3-ə VƏ 7-yə bölünən ədədlər (yəni 21-ə bölünənlər):" <<endl;
+    for (int i = 1; i <= 100; ++i) {
+        if (i % 3 == 0 && i % 7 == 0) {
+            cout << i << " ";
+        }
+    }
+    cout << endl;
+    return 0;
+}
