@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int eded, reqem, cem = 0;
+    cout << "Bir ədəd daxil edin: ";
+    cin >> eded;
+
+    int temp_eded = eded; 
+    while (temp_eded > 0) {
+        reqem = temp_eded % 10; 
+        cem += reqem;           
+        temp_eded /= 10;       
+    }
+    cout << eded << " ədədinin rəqəmlərinin cəmi: " << cem << endl;
+    return 0;
+}
