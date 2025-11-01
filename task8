@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int eded;
+    int ters_eded = 0;
+    cout << "Bir ədəd daxil edin: ";
+    cin >> eded;
+    int temp_eded = eded;
+    while (temp_eded != 0) {
+        int reqem = temp_eded % 10;      
+        ters_eded = ters_eded * 10 + reqem; 
+        temp_eded /= 10;              
+    }
+    cout << eded << " ədədinin tərsi: " << ters_eded << endl;
+    return 0;
+}
